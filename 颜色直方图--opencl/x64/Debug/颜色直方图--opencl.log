@@ -1,16 +1,16 @@
-﻿生成启动时间为 2018/10/13 星期六 10:10:20。
+﻿生成启动时间为 2018/10/16 星期二 10:05:49。
      1>项目“C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\颜色直方图--opencl\颜色直方图--opencl.vcxproj”在节点 2 上(Build 个目标)。
      1>ClCompile:
          E:\softwareinstall\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt main.cpp
          main.cpp
-     1>main.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
-     1>main.cpp(93): warning C4018: “<”: 有符号/无符号不匹配
-     1>main.cpp(112): warning C4018: “<”: 有符号/无符号不匹配
+     1>E:\softwareinstall\OPENCV3.1.0\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\softwareinstall\OPENCV3.1.0\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>E:\softwareinstall\OPENCV3.1.0\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
        Link:
-         E:\softwareinstall\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.exe" /INCREMENTAL /NOLOGO OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.lib" /MACHINE:X64 x64\Debug\main.obj
+         E:\softwareinstall\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.exe" /INCREMENTAL /NOLOGO OpenCL.lib opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.lib" /MACHINE:X64 x64\Debug\main.obj
          颜色直方图--opencl.vcxproj -> C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\x64\Debug\颜色直方图--opencl.exe
      1>已完成生成项目“C:\Users\Administrator\documents\visual studio 2013\Projects\颜色直方图--opencl\颜色直方图--opencl\颜色直方图--opencl.vcxproj”(Build 个目标)的操作。
 
 生成成功。
 
-已用时间 00:00:00.80
+已用时间 00:00:01.74
